@@ -8,6 +8,23 @@ The code is based on the paper "N-output Mechanism: Estimating Statistical Infor
 - **dist_estimation.py**: Experiments for distribution, variance, and quantile estimation.
 - **train.py**: Experiments for a case study on federated learning.
 
+## Dependencies
+Ensure you have the necessary dependencies installed before running the experiments:
+```bash
+pip install -r requirements.txt
+```
+This code is compatible with Python 3.11.7
+
+## Preparation: Dataset
+
+Some datasets used in this project are large, so they are provided via external links. Please download the datasets from the following links:
+
+- [NYC Taxi and Limousine Commission (TLC) Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+- [UCI Machine Learning Repository - Individual household electric power consumption Data Set](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)
+
+After downloading, place the datasets in the data directory.
+
+
 ## Reproducing the Experiments
 
 You can reproduce the experiments described in the paper using the following commands:
