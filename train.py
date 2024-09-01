@@ -35,7 +35,7 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=2025)
     parser.add_argument('--runs', type=int, default=50)
 
-    parser.add_argument('--mech', help='nonpriv, duchi, to, topm, pm_sub, no, nopm')
+    parser.add_argument('--mech', help='nonpriv, topm, pm_sub, nopm')
     parser.add_argument('--eps', type=float, help='the privacy budget')
     parser.add_argument('--range', type=float, default=0.3, help='range of gradient')
 
@@ -48,7 +48,6 @@ if __name__ == '__main__':
     parser.add_argument('--total_clients', type=int, default=500)
     parser.add_argument('--fraction', type=float, default=0.1, help='fraction of total nodes for each round')
     parser.add_argument('--batch_size', type=int, default=50, help='the batch size for each node')
-
 
     args = parser.parse_args()
 

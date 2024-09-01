@@ -175,7 +175,3 @@ quantile_err = quantile_sum / num_exp
 
 print(f'Dataset:{args.dataset}, Mechanism:{args.mech}')
 print(f'Wasserstein distance: {wass}, Variance: {var_err}, quantiles: {quantile_err}')
-
-# python dist_estimation.py --num 100 --mech nopm --eps 2 --dataset ny_time_2023
-# python dist_estimation.py --num 100 --mech nopm --eps 2 --dataset hpc_voltage
-# python dist_estimation.py --num 100 --mech nopm --eps 2 --dataset beta --a 3 --b 2 --sam 1000000 --dim 10

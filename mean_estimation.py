@@ -181,7 +181,3 @@ else:
 MSE = (mean_err_sum / num_exp)
 
 print(f'Dataset:{args.dataset}, Mechanism:{args.mech}, Mean estimation MSE: {MSE}, RMSE: {np.sqrt(MSE)}')
-
-# python mean_estimation.py --num 100 --mech a3m --eps 2 --dataset ny_time_2023
-# python mean_estimation.py --num 100 --mech a3m --eps 2 --dataset hpc_voltage
-# python mean_estimation.py --num 100 --mech a3m --eps 2 --dataset beta --a 3 --b 2 --sam 1000000 --dim 10
