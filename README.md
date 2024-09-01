@@ -1,6 +1,7 @@
 # N-output Mechanism: Estimating Statistical Information from Numerical Data under Local Differential Privacy
 
-This repository contains the implementation of the N-output mechanism for estimating various statistical information such as mean, distribution, variance, and quantile under Local Differential Privacy (LDP). The code is based on the paper "N-output Mechanism: Estimating Statistical Information from Numerical Data under Local Differential Privacy," which is currently under submission to VLDB 2025.
+This repository contains the implementation of the N-output mechanism for estimating various statistical information such as mean, distribution, variance, and quantile under Local Differential Privacy (LDP).
+The code is based on the paper "N-output Mechanism: Estimating Statistical Information from Numerical Data under Local Differential Privacy," which is currently under submission to VLDB 2025.
 
 ## Overview
 - **mean_estimation.py**: Experiments for mean estimation.
