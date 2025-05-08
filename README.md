@@ -1,4 +1,5 @@
 # Batch Local Differentially Private Models
+# Developer: Incheol Baek and Yon Dohn Chung
 
 This repository contains the implementation of Batch Local Differentially Private Models.
 
