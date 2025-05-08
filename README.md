@@ -1,7 +1,14 @@
-# N-output Mechanism: Estimating Statistical Information from Numerical Data under Local Differential Privacy
+# Batch Local Differentially Private Models
 
-This repository contains the implementation of the N-output mechanism for estimating various statistical information such as mean, distribution, variance, and quantile under Local Differential Privacy (LDP).
-The code is based on the paper "N-output Mechanism: Estimating Statistical Information from Numerical Data under Local Differential Privacy," which is currently under submission to ICDE 2025.
+This repository contains the implementation of Batch Local Differentially Private Models.
+
+## Implemented Models
+- **Duchi Model**
+- **Three-ouput Model**
+- **Piecewise Model**
+- **Piecewise-sub optimal Model**
+- **Hybrid(Duchi + Piecewise) Model**
+- **Hybrid(Three-output + Piecewise-sub) Model**
 
 ## Overview
 - **mean_estimation.py**: Experiments for mean estimation.
